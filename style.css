@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  background-image: url(images/oceanwaves.jpg);
+  background-position: top;
+  display: inline-block;
+  width: 100%;
+  background-blend-mode: multiply;
+  position: relative;
+}
+nav li{
+  display: inline-block;
+}
+
+.text {
+
+}
+
+.logo {
+  font-size: 10px;
+  position: absolute;
+  top: 1px;
+  left: 10px;
+}
+.about{
+  font-size: 10px;
+  position: absolute;
+  top: 1px;
+  right: 50px;
+
+}
+
+
+
+header h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+header h2 {
+  text-align: center;
+
+}
+
+.container1 {
+  width: 65%;
+  position:relative;
+  float:left;
+}
+
+
+.container2 {
+  width: 35%;
+  position: relative;
+  float:right;
+
+}
+
+.container3 {
+  display: inline-block;
+  width: 100%;
+}
+
+.cols {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.col-1{
+  width: 24%;
+}
+
+.container3 img{
+  height: 200px;
+  width: 200px;
+}
+
+
+footer{
+  background-color: navy;
+  min-height: 100px;
+
+}
