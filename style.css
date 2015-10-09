@@ -12,12 +12,9 @@ header {
   background-blend-mode: multiply;
   position: relative;
 }
+
 nav li{
   display: inline-block;
-}
-
-.text {
-
 }
 
 .logo {
@@ -31,7 +28,6 @@ nav li{
   position: absolute;
   top: 1px;
   right: 50px;
-
 }
 
 
@@ -46,17 +42,52 @@ header h2 {
 
 }
 
-.container1 {
+.container1{
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.left {
   width: 65%;
   position:relative;
   float:left;
+  padding-top: 70px;
 }
 
+.fantastic{
+  font-size: 30px;
+  font-weight: bold;
+}
 
-.container2 {
+.anne{
+  font-size: 10px;
+}
+
+.anne img{
+  border-radius: 50%;
+}
+
+.right {
   width: 35%;
   position: relative;
   float:right;
+  padding-top: 70px;
+
+}
+
+.person img{
+  border-radius: 50%;
+  image-orientation: center;
+
+}
+
+.social{
+  font-size: 10px;
+}
+
+/*I can't figure out how to fit my pic*/
+. img{
 
 }
 
@@ -81,7 +112,22 @@ header h2 {
 
 
 footer{
-  background-color: navy;
+  background-color: lightblue;
   min-height: 100px;
+  font-size: 10px;
+  position: relative;
+}
 
+.navitem{
+  display: inline-block;
+  position: absolute;
+  right: 130px;
+  bottom: 50px;
+}
+
+.copyright{
+  display: inline-block;
+  position: absolute;
+  left: 130px;
+  bottom: 40px;
 }
