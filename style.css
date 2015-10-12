@@ -4,6 +4,7 @@ body {
 
 }
 
+
 header {
   background-image: url(images/oceanwaves.jpg);
   background-position: top;
@@ -18,13 +19,13 @@ nav li{
 }
 
 .logo {
-  font-size: 10px;
+  font-size: 1em;
   position: absolute;
   top: 1px;
   left: 10px;
 }
 .about{
-  font-size: 10px;
+  font-size: 1em;
   position: absolute;
   top: 1px;
   right: 50px;
@@ -35,10 +36,12 @@ nav li{
 header h1 {
   font-size: 70px;
   text-align: center;
+
 }
 
 header h2 {
   text-align: center;
+  font-size: 20px;
 
 }
 
@@ -66,28 +69,38 @@ header h2 {
 
 .anne img{
   border-radius: 50%;
+  text-align: center;
 }
 
 .right {
   width: 35%;
   position: relative;
-  float:right;
+  float: right;
   padding-top: 70px;
-
+  text-align: center;
 }
 
 .person img{
   border-radius: 50%;
-  image-orientation: center;
-
 }
 
-.social{
+
+.social {
   font-size: 10px;
+  display: block;
 }
 
-/*I can't figure out how to fit my pic*/
-. img{
+.social li {
+  display: inline-block;
+}
+
+.surfgirl img{
+  width: 200px;
+}
+
+.surfgirl p {
+  font-size: 10px;
+  padding-left: 30%;
 
 }
 
@@ -131,3 +144,32 @@ footer{
   left: 130px;
   bottom: 40px;
 }
+
+@media (max-width: 500px) {
+  header {
+    background-image: url(images/oceanwaves.jpg);
+    background-position: top;
+    display: inline-block;
+    width: 100%;
+    background-blend-mode: multiply;
+    position: relative;
+    min-height: 350px;
+  }
+
+    header h1  {
+      font-size: 3em;
+      padding-top: 40%;
+    }
+
+    header h2 {
+      font-size: 1em;
+      padding-bottom: 20%;
+    }
+
+    footer {
+      font-size: .6em;
+    }
+
+    .navitem {
+
+    }
